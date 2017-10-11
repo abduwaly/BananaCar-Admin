@@ -1,0 +1,166 @@
+<!--
+ * CoreUI - Open Source Bootstrap Admin Template
+ * @version v1.0.0-alpha.2
+ * @link http://coreui.io
+ * Copyright (c) 2016 creativeLabs Łukasz Holeczek
+ * @license MIT
+ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="CoreUI Bootstrap 4 Admin Template">
+    <meta name="author" content="Lukasz Holeczek">
+    <meta name="keyword" content="CoreUI Bootstrap 4 Admin Template">
+    <!-- <link rel="shortcut icon" href="assets/ico/favicon.png"> -->
+    <title>BananaCar</title>
+    <!-- Icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/simple-line-icons.css" rel="stylesheet">
+    <!-- Main styles for this application -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body class="navbar-fixed sidebar-nav fixed-nav">
+    <header class="navbar">
+        <div class="container-fluid">
+            <button class="navbar-toggler mobile-toggler hidden-lg-up" type="button">&#9776;</button>
+            <a class="navbar-brand" href="#"></a>
+            <ul class="nav navbar-nav hidden-md-down">
+                <li class="nav-item">
+                    <a class="nav-link navbar-toggler layout-toggler" href="#">&#9776;</a>
+                </li>
+                <li class="nav-item p-x-1">
+                    <a class="nav-link" href="#">Dashboard</a>
+                </li>
+                <li class="nav-item p-x-1">
+                    <a class="nav-link" href="#">Users</a>
+                </li>
+                <li class="nav-item p-x-1">
+                    <a class="nav-link" href="#">Settings</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav pull-right hidden-md-down">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                        <img src="img/avatars/8.jpg" class="img-avatar" alt="admin@bootstrapmaster.com">
+                        <span class="hidden-md-down">admin</span>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+						<div class="dropdown-header text-xs-center">
+                            <strong>Settings</strong>
+                        </div>
+                        <a class="dropdown-item" href="#"><i class="fa fa-user"></i> Profile</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-wrench"></i> Settings</a>
+                        <a class="dropdown-item" href="#"><i class="fa fa-sign-out"></i> Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="sidebar">
+        <nav class="sidebar-nav">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onclick="loadContent('dashboard.html')"><i class="icon-speedometer"></i> Dashboard <span class="tag tag-info">NEW</span></a>
+                </li>
+                <li class="nav-title">
+                    UI Elements
+                </li>
+                <li class="nav-item nav-dropdown">
+                    <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-puzzle"></i> Components</a>
+                    <ul class="nav-dropdown-items">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="icon-puzzle"></i> Buttons</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="icon-puzzle"></i> Social Buttons</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item nav-dropdown">
+                    <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-star"></i> Icons</a>
+                    <ul class="nav-dropdown-items">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="icon-star"></i> Font Awesome</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="icon-star"></i> Simple Line Icons</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="icon-calculator"></i> Widgets <span class="tag tag-info">NEW</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="icon-pie-chart"></i> Charts</a>
+                </li>
+                <li class="divider"></li>
+                <li class="nav-title">
+                    Extras
+                </li>
+                <li class="nav-item nav-dropdown">
+                    <a class="nav-link nav-dropdown-toggle" href="#"><i class="icon-star"></i> Pages</a>
+                    <ul class="nav-dropdown-items">
+                        <li class="nav-item">
+                            <a class="nav-link" href="html/pages-login.html" target="_top"><i class="icon-star"></i> Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="html/pages-register.html" target="_top"><i class="icon-star"></i> Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="html/pages-404.html" target="_top"><i class="icon-star"></i> Error 404</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="html/pages-500.html" target="_top"><i class="icon-star"></i> Error 500</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <!-- Main content -->
+    <main id="main-content" class="main">
+        
+    </main>
+    
+    <footer class="footer">
+        <span class="text-left">
+            <a href="http://coreui.io">CoreUI</a> &copy; 2016 creativeLabs.
+        </span>
+        <span class="pull-right">
+            Powered by <a href="http://coreui.io">CoreUI</a>
+        </span>
+    </footer>
+    <!-- Bootstrap and necessary plugins -->
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/libs/tether.min.js"></script>
+    <script src="js/libs/bootstrap.min.js"></script>
+    <script src="js/libs/pace.min.js"></script>
+    <!-- Plugins and scripts required by all views -->
+    <script src="js/libs/Chart.min.js"></script>
+    <!-- CoreUI main scripts -->
+
+    <script src="js/app.js"></script>
+    <!-- Plugins and scripts required by this views -->
+    <!-- Custom scripts required by this view -->
+    <script src="js/views/charts.js"></script>
+    
+    <script type="text/javascript">
+        function loadContent(src) {
+            var url = "html/"+src;
+            $.get(url,function (data,status) {
+                if(status === "success"){
+                    $("#main-content").html(data);
+                }else{
+                    alert("error:"+status)
+                }
+            })
+        }
+    </script>
+</body>
+
+</html>
